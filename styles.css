@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 120px;
+    font-family: didot;
+}
+
+.bio {
+    position: absolute;
+    left: 25%;
+    font-size: 50px;
+    font-family: didot;
+    top: 80%;
+}
+
+.notes {
+    position: absolute;
+    left: 15%;
+    font-size: 50px;
+    font-family: didot;
+    top: 300px;
+    color: white;
+}
+
+.about {
+    position: absolute;
+    left: 15%;
+    font-size: 50px;
+    font-family: didot;
+    top: 500px;
+    color: white;
+}
+
+body {
+    background-image: url(images/realpicture.jpeg);
+    background-size: cover;
+}
